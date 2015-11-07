@@ -8,9 +8,9 @@ I plan to take advantage of computational speedups available to iOS device - For
 OpenCV hascalcOpticalFlowPyrLK method to perform optical flows. Brad Larson’s GPUImage library has a built in GPUImageMotionDetector. This motion detector does frame to frame comparisons based on low pass filter and can identify number of pixels that have changed. It does not do feature matching or optical flow. Aim of the project is to find efficient ways of doing real time optical flow on iOS. 
 
 **Goals and Deliverables:**
-1. I plan to create a robust tracking algorithm to detect and analyse motions at a playground , specifically at swings and build a game around this idea to teach children about physics of motions -linear and periodic. 
-2. I hope to achieve motion based augmented reality. Based on swing’s relative velocity or consistency of pumping the swing would render a 3d object in space 
-3. For evaluation : I am planning to take snapshots of app working and also record a video of the app in action
+- I plan to create a robust tracking algorithm to detect and analyse motions at a playground , specifically at swings and build a game around this idea to teach children about physics of motions -linear and periodic. 
+- I hope to achieve motion based augmented reality. Based on swing’s relative velocity or consistency of pumping the swing would render a 3d object in space 
+- For evaluation : I am planning to take snapshots of app working and also record a video of the app in action
 It seems possible to achieve (1) within the given timeframe of the project
 
 **Schedule:**
